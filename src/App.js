@@ -36,18 +36,10 @@ const ExpenseCalculator = () => {
     }, 0);
   };
 
-  const resetIssues = () => {
-    setCosts();
-  }
-
   return (
     <Container >
       <Row>
         <Col sm="12" md={{ size: 6, offset: 3 }}><h1>Expense Calculator</h1></Col>
-      </Row>
-      <br/>
-      <Row>
-        <Button color="warning" onClick={resetIssues}>New Project</Button>
       </Row>
       <br/>
       <Row>
